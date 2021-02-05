@@ -14,7 +14,10 @@
    version="1.1"
    id="svg8"
    inkscape:version="1.0.2 (e86c8708, 2021-01-15)"
-   sodipodi:docname="pbjam-logo-name.svg">
+   sodipodi:docname="pbjam-logo-name.svg"
+   inkscape:export-filename="/Users/ajl573/pbjam-logo-name.png"
+   inkscape:export-xdpi="150"
+   inkscape:export-ydpi="150">
   <defs
      id="defs2">
     <linearGradient
@@ -129,11 +132,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.438237"
-     inkscape:cx="267.84343"
-     inkscape:cy="229.34418"
+     inkscape:zoom="3.1484633"
+     inkscape:cx="107.37976"
+     inkscape:cy="143.85725"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer2"
+     inkscape:current-layer="g2236"
      inkscape:document-rotation="0"
      showgrid="false"
      inkscape:window-width="1745"
@@ -396,11 +399,11 @@
                d="m 67.289312,111.87262 -43.322007,2.47171 19.52044,-38.753809 z" />
             <g
                id="g2070"
-               style="fill:#cccccc;stroke-width:1.59161"
-               transform="matrix(0.78686512,0,-0.37065892,-0.28982541,-25.974153,126.83358)">
+               style="fill:#cccccc;stroke-width:1.4113"
+               transform="matrix(0.78686512,0,-0.37065892,-0.36861417,-25.974153,130.75461)">
               <path
                  sodipodi:type="star"
-                 style="fill:#cccccc;fill-rule:evenodd;stroke-width:2.07786;stroke-linecap:round;stroke-linejoin:round;stop-color:#000000"
+                 style="fill:#cccccc;fill-rule:evenodd;stroke-width:1.84246;stroke-linecap:round;stroke-linejoin:round;stop-color:#000000"
                  id="path2066"
                  sodipodi:sides="3"
                  sodipodi:cx="44.914787"
@@ -418,7 +421,7 @@
                  d="m 67.289312,111.87262 -43.322007,2.47171 19.52044,-38.753809 z" />
               <path
                  sodipodi:type="star"
-                 style="fill:#cccccc;fill-rule:evenodd;stroke-width:1.06801;stroke-linecap:round;stroke-linejoin:round;stop-color:#000000"
+                 style="fill:#cccccc;fill-rule:evenodd;stroke-width:0.947016;stroke-linecap:round;stroke-linejoin:round;stop-color:#000000"
                  id="path2068"
                  sodipodi:sides="3"
                  sodipodi:cx="44.914787"
