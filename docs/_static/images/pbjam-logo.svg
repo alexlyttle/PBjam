@@ -14,7 +14,7 @@
    version="1.1"
    id="svg8"
    inkscape:version="1.0.2 (e86c8708, 2021-01-15)"
-   sodipodi:docname="pbjam-logo-name.svg"
+   sodipodi:docname="pbjam-logo.svg"
    inkscape:export-filename="/Users/ajl573/pbjam-logo-name-test1.png"
    inkscape:export-xdpi="150"
    inkscape:export-ydpi="150">
@@ -132,11 +132,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="6.0524956"
-     inkscape:cx="56.996069"
-     inkscape:cy="129.87511"
+     inkscape:zoom="1.727027"
+     inkscape:cx="29.017573"
+     inkscape:cy="188.025"
      inkscape:document-units="mm"
-     inkscape:current-layer="g2076"
+     inkscape:current-layer="g2236"
      inkscape:document-rotation="0"
      showgrid="false"
      inkscape:window-width="1745"
@@ -184,8 +184,8 @@
          id="g2076"
          transform="matrix(1.2975264,0,0,1.3264388,57.027916,-105.50969)"
          style="display:inline;stroke-width:0.762252"
-         inkscape:export-xdpi="26.59898"
-         inkscape:export-ydpi="26.59898">
+         inkscape:export-xdpi="13.309674"
+         inkscape:export-ydpi="13.309674">
         <path
            sodipodi:type="star"
            style="display:inline;fill:#cccccc;fill-rule:evenodd;stroke-width:1.84065;stroke-linecap:round;stroke-linejoin:round;stop-color:#000000"
@@ -314,7 +314,7 @@
            inkscape:randomized="0"
            inkscape:transform-center-x="-2.4589444e-05"
            inkscape:transform-center-y="-2.253842"
-           transform="matrix(0.35499434,0.0164144,-0.02005716,0.28799943,54.857752,79.014932)"
+           transform="matrix(0.35499434,0.0164144,-0.02005716,0.28799943,54.85821,79.014853)"
            d="m 67.289312,111.87262 -43.322007,2.47171 19.52044,-38.753809 z" />
         <path
            sodipodi:type="star"
@@ -332,7 +332,7 @@
            inkscape:randomized="0"
            inkscape:transform-center-x="-2.2346483e-05"
            inkscape:transform-center-y="-1.7205381"
-           transform="matrix(0.27099583,0.01253044,-0.01531125,0.21985322,59.980289,86.901976)"
+           transform="matrix(0.27099583,0.01253044,-0.01531125,0.21985322,59.979471,86.899886)"
            d="m 67.289312,111.87262 -43.322007,2.47171 19.52044,-38.753809 z" />
         <path
            sodipodi:type="star"
@@ -407,17 +407,6 @@
            transform="matrix(0.18699418,0.00864634,-0.01056516,0.15170445,65.100472,94.785316)"
            d="m 67.289312,111.87262 -43.322007,2.47171 19.52044,-38.753809 z" />
       </g>
-      <text
-         xml:space="preserve"
-         style="font-size:21.22599999999999909px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Normal';fill:#444444;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none;fill-opacity:1;"
-         x="130.61743"
-         y="60.456772"
-         id="text2146"><tspan
-           sodipodi:role="line"
-           id="tspan2144"
-           x="130.61743"
-           y="60.456772"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Georgia;-inkscape-font-specification:Georgia;fill:#444444;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none;fill-opacity:1;">PBjam</tspan></text>
     </g>
     <g
        id="g2207"
