@@ -285,9 +285,9 @@ class star(plotting):
         store_chains : bool, optional
             Whether or not to store posterior samples on disk. Default is False.
         method : string
-            Method to be used for sampling the posterior. Options are 'emcee' or
-            'cpnest. Default method is 'emcee' that will call emcee, alternative
-            is 'cpnest' to call nested sampling with CPnest.
+            Method to be used for sampling the posterior. Options are 'emcee',
+            'zeus' or 'cpnest. Default method is 'emcee' that will call emcee,
+            alternative is 'cpnest' to call nested sampling with CPnest.
         developer_mode : bool
             Run asy_peakbag in developer mode. Currently just retains the input 
             value of dnu and numax as priors, for the purposes of expanding
@@ -397,7 +397,7 @@ class star(plotting):
             Whether or not to store posterior samples on disk. Default is False.
         asy_sampling : string
             Method to be used for sampling the posterior in asy_peakbag. Options
-            are 'emcee' or 'cpnest. Default method is 'emcee' that will call 
+            are 'emcee', 'zeus' or 'cpnest. Default method is 'emcee' that will call 
             emcee, alternative is 'cpnest' to call nested sampling with CPnest.
         developer_mode : bool
             Run asy_peakbag in developer mode. Currently just retains the input 

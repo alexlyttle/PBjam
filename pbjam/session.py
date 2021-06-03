@@ -638,7 +638,7 @@ class session():
             Whether or not to store MCMC chains on disk. Default is False.
         asy_sampling : str, optional.
             Which type of sampler to use for the asymptotic peakbagging. The 
-            options are 'emcee' and 'cpnest'. Default is 'emcee'.
+            options are 'emcee', 'zeus' and 'cpnest'. Default is 'emcee'.
         developer_mode : bool
             Run asy_peakbag in developer mode. Currently just retains the input 
             value of dnu and numax as priors, for the purposes of expanding

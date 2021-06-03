@@ -5,12 +5,30 @@ Samplers added to PBjam should be called from this module.
 
 """
 
+import zeus
 import emcee
 import numpy as np
 import scipy.stats as st
 import cpnest.model
 import pandas as pd
 import os
+
+
+class lightning(zeus.EnsembleSampler):
+
+    def run_mcmc(self, initial_state, **kwargs):
+        super().run_mcmc(start=initial_state, **kwargs)
+        pos = self.get_last_sample()
+        prob = self.get_last_log_prob()
+        state = None  # We don't use it
+        self.acceptance_fraction = np.ones(self.nwalkers)
+        return pos, prob, state
+    
+    def get_autocorr_time(self, discard=0, thin=1, **kwargs):
+        x = self.get_chain(discard=discard, thin=thin)
+        return thin * emcee.autocorr.integrated_time(x, **kwargs)
+        # return self.act
+
 
 class mcmc():
     """ Class for MCMC sampling using `emcee'
@@ -51,7 +69,7 @@ class mcmc():
         
     """
 
-    def __init__(self, start, likelihood, prior, nwalkers=50):
+    def __init__(self, start, likelihood, prior, nwalkers=50, sampler='emcee'):
 
         self.start = start
         self.likelihood = likelihood
@@ -59,9 +77,17 @@ class mcmc():
         self.nwalkers = nwalkers
         
         self.ndim = len(start)
-        self.sampler = emcee.EnsembleSampler(self.nwalkers,
-                                             self.ndim,
-                                             self.logpost)
+
+        if sampler == 'emcee':
+            sampler_class = emcee.EnsembleSampler
+        elif sampler == 'zeus':
+            sampler_class = lightning
+        else:
+            raise ValueError('sampler must be either "emcee" or "zeus"')
+
+        self.sampler = sampler_class(self.nwalkers,
+                                     self.ndim,
+                                     self.logpost)
 
         self.chain = None
         self.lnlike = None
@@ -111,7 +137,10 @@ class mcmc():
             timescale of the chain, the sampling is considered stationary.
             
         """
-        
+        # x = self.sampler.get_chain()
+        # x = 
+        # tau = emcee.autocorr.integrated_time(x, tol=0)
+
         tau = self.sampler.get_autocorr_time(tol=0)
         converged = np.all(tau * nfactor < self.sampler.iteration)
         return converged
